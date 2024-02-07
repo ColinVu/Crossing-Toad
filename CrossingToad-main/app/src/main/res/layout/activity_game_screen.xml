@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7FFF2"
+    tools:context=".GameScreen">
+
+    <ImageView
+        android:id="@+id/mapDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/log1"
+        android:layout_width="193dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/big_log" />
+
+    <ImageView
+        android:id="@+id/log12"
+        android:layout_width="193dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/big_log" />
+
+    <ImageView
+        android:id="@+id/log13"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log14"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log2"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toStartOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log3"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toStartOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log7"
+        android:layout_width="94dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log8"
+        android:layout_width="94dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toStartOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/med_log" />
+
+    <ImageView
+        android:id="@+id/log4"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/log5"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/log11"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/log6"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/log10"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/log9"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="-50dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/small_log" />
+
+    <ImageView
+        android:id="@+id/spriteDisplay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay" />
+
+    <ImageView
+        android:id="@+id/sedan1"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="-55dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan7"
+        android:layout_width="40dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan3"
+        android:layout_width="47dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan4"
+        android:layout_width="44dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan8"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan5"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan6"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/sedan2"
+        android:layout_width="43dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="-54dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/sedan" />
+
+    <ImageView
+        android:id="@+id/truck"
+        android:layout_width="65dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="-62dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintEnd_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/truck" />
+
+    <ImageView
+        android:id="@+id/train"
+        android:layout_width="71dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="-74dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay"
+        app:srcCompat="@drawable/train" />
+
+    <TextView
+        android:id="@+id/pointText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="17dp"
+        android:text="Points:"
+        app:layout_constraintBottom_toTopOf="@+id/livesText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/difficultyText" />
+
+    <TextView
+        android:id="@+id/difficultyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="18dp"
+        android:text="Difficulty:"
+        app:layout_constraintBottom_toTopOf="@+id/pointText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/livesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="359dp"
+        android:layout_marginBottom="576dp"
+        android:text="Lives:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pointText" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="-440dp"
+        android:onClick="restartGame"
+        android:text="Restart"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toStartOf="@+id/mapDisplay" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-120dp"
+        android:layout_marginBottom="-440dp"
+        android:onClick="quitGame"
+        android:text="Quit"
+        app:layout_constraintBottom_toTopOf="@+id/mapDisplay"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay" />
+
+    <TextView
+        android:id="@+id/gameOverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-370dp"
+        android:layout_marginBottom="-300dp"
+        android:text="GAME OVER"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@id/difficultyText"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay" />
+
+    <TextView
+        android:id="@+id/gameWinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-355dp"
+        android:layout_marginBottom="-300dp"
+        android:text="YOU WIN!"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@id/difficultyText"
+        app:layout_constraintStart_toEndOf="@+id/mapDisplay" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
